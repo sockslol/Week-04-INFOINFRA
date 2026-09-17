@@ -10,10 +10,10 @@ console.log(sentence);
 
 const animal = "cat";
 const color = "orange";
-let name = prompt("What is the " + color + animal ,"'s name?");
+let name = prompt("What is the " + color + " " + animal + "'s name?")
 
 
-let catSentence = "This is an " + color + " " + animal + " named " + name + ".";
+let catSentence = "The " + color + " " + animal + " is named " + name + ".";
 document.getElementById("sentence").textContent = catSentence
 console.log(name);
 
