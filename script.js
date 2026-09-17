@@ -10,9 +10,9 @@ console.log(sentence);
 
 const animal = "cat";
 const color = "orange";
-let name = prompt("What is your cat's name?");
+let name = prompt("What is the cat's name?");
 
-document.getElementById("sentence").textContent = "This is a " + color + " " + animal + " named " + name + ".";
+document.getElementById("sentence").textContent = "This is an " + color + " " + animal + " named " + name + ".";
 console.log(name);
 
 let currentDate = new Date();
